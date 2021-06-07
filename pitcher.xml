@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:text="Pitchers"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/pitcherText"
+        android:layout_width="500dp"
+        android:layout_height="360dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="0dp"
+        android:text="In baseball, the person that controls the flow of the game is called the pitcher. They have to throw
+the ball in the strike zone, which is the zone that the batter has to get a strike. They get 1 out when they get 3 strikes or they
+make the hitter hit the ball to a player in the field."
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/pitcherText"
+        app:srcCompat="@drawable/download" />
+
+    <Button
+        android:id="@+id/backP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Back" />
+
+
+</RelativeLayout>

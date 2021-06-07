@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:text="Sacrifice Fly"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/sacrificeFlyText"
+        android:layout_width="500dp"
+        android:layout_height="390dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="0dp"
+        android:text="A sacrifice fly is when the hitter hits a pop up into the outfield that is deep enough for the runner to go from third to home.
+The runner can only run when the outfielder catches the ball. If the runner leaves early, they are out. As long as the runner scores, the hitter did his job. "
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_marginLeft="4dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:layout_below="@+id/sacrificeFlyText"
+        app:srcCompat="@drawable/sacfly" />
+
+
+</RelativeLayout>

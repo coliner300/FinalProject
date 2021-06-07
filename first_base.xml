@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:text="First Baseman"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/firstText"
+        android:layout_width="500dp"
+        android:layout_height="360dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="0dp"
+        android:text="The first basemen is the player that stands at first base and catches all the balls thrown by infielders. The main
+job of the first basemen is to catch the ball no matter where it is thrown in order to get the out. They are usually
+not the most athletic but they can hit the ball very hard."
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_marginLeft="4dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/firstText"
+        app:srcCompat="@drawable/firstbase" />
+
+    <Button
+        android:id="@+id/backF"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:text="Back" />
+
+
+</RelativeLayout>

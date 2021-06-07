@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:text="Right Field"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/rightText"
+        android:layout_width="500dp"
+        android:layout_height="360dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="0dp"
+        android:text="The right fielder has a really good arm, but they are the slowest ones in the outfield. They have really good power and will throw out anyone that tries to run on them.
+This player isn't known for their blazing speed but rather for their cannon of an arm. "
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/rightText"
+        app:srcCompat="@drawable/right" />
+
+    <Button
+        android:id="@+id/backRF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Back" />
+
+
+</RelativeLayout>

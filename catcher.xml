@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".catcherActvity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:text="Catchers"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/catcherText"
+        android:layout_width="500dp"
+        android:layout_height="360dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="0dp"
+        android:text="The catcher is the person that sits behind the batter. This player catches every ball that is thrown and is
+soemtimes known as the captain of the field. They are usually bigger people and have more power than some of the other people
+on the field"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/catcherText"
+        app:srcCompat="@drawable/catcher" />
+
+    <Button
+        android:id="@+id/backC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Back" />
+
+
+</RelativeLayout>

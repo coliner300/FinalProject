@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".positions_activity">
+
+    <TextView
+        android:id="@+id/positionTitle"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="The Different Positions In Baseball"
+        android:textSize="37dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/positionTitle"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Pitcher"
+        android:id="@+id/pitcherButton"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:layout_width="156dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/positionTitle"
+        android:layout_toRightOf="@+id/pitcherButton"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="Catcher"
+        android:id="@+id/catcherButton"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/pitcherButton"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="First Base"
+        android:id="@+id/firstBaseButton"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:layout_width="156dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/catcherButton"
+        android:layout_toRightOf="@+id/firstBaseButton"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="Second Base"
+        android:id="@+id/secondBaseButton"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/firstBaseButton"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Third Base"
+        android:id="@+id/thirdBaseButton"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:layout_width="156dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/secondBaseButton"
+        android:layout_toRightOf="@+id/thirdBaseButton"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="Shortstop"
+        android:id="@+id/shortstopButton"
+        android:textSize="19dp"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/thirdBaseButton"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Left Field"
+        android:id="@+id/leftFieldButton"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:layout_width="156dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/shortstopButton"
+        android:layout_toRightOf="@+id/leftFieldButton"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="Right Field"
+        android:id="@+id/rightFieldButton"
+        android:textSize="19dp"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/positionTitle"
+        android:layout_marginTop="405dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginLeft="130dp"
+        android:text="Center Field"
+        android:id="@+id/centerFieldButton"
+        android:textSize="19dp"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="300dp"
+        android:text="Home" />
+
+</RelativeLayout>

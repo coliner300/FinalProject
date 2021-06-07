@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:text="Double Plays"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/doublePlayText"
+        android:layout_width="500dp"
+        android:layout_height="390dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="0dp"
+        android:text="A double play is a play in which the fielders get 2 outs in one play. This can happen in a variety of different ways. The most common way is when a ground ball goes to either the shortstop or second basemen. The
+person that gets the ball throws it to second and then throws it to first."
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_marginLeft="4dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:layout_below="@+id/doublePlayText"
+        app:srcCompat="@drawable/doubleplay" />
+
+
+</RelativeLayout>
