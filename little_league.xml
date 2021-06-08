@@ -44,5 +44,12 @@ and it shows who doesn't want to play anymore. "
         android:layout_below="@+id/littleLeagueText"
         app:srcCompat="@drawable/littleleague" />
 
+    <Button
+        android:id="@+id/backLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Back" />
+
 
 </RelativeLayout>
