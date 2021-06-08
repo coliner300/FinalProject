@@ -43,5 +43,12 @@ children. If people don't make a high school team, they usually stop playing com
         android:layout_below="@+id/highSchoolText"
         app:srcCompat="@drawable/highschool" />
 
+    <Button
+        android:id="@+id/backHS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Back" />
+
 
 </RelativeLayout>
