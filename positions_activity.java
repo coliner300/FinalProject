@@ -1,6 +1,7 @@
 package com.example.finalproject;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,12 +27,14 @@ public class positions_activity extends AppCompatActivity
         center = findViewById(R.id.centerFieldButton);
         rightField = findViewById(R.id.rightFieldButton);
         home = findViewById(R.id.homeButton);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.batsound);
 
         pitcher.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(positions_activity.this, pitcherActivity.class));
+                mediaPlayer.start();
             }
         });
         catcher.setOnClickListener(new View.OnClickListener()
@@ -39,6 +42,7 @@ public class positions_activity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(positions_activity.this, catcherActvity.class));
+                mediaPlayer.start();
             }
         });
         first.setOnClickListener(new View.OnClickListener()
@@ -46,6 +50,7 @@ public class positions_activity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(positions_activity.this, first_activity.class));
+                mediaPlayer.start();
             }
         });
         second.setOnClickListener(new View.OnClickListener()
@@ -53,6 +58,7 @@ public class positions_activity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(positions_activity.this, second_activity.class));
+                mediaPlayer.start();
             }
         });
         shortstop.setOnClickListener(new View.OnClickListener()
@@ -60,6 +66,7 @@ public class positions_activity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(positions_activity.this, short_activity.class));
+                mediaPlayer.start();
             }
         });
         third.setOnClickListener(new View.OnClickListener()
@@ -67,6 +74,7 @@ public class positions_activity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(positions_activity.this, third_activity.class));
+                mediaPlayer.start();
             }
         });
         leftField.setOnClickListener(new View.OnClickListener()
@@ -74,6 +82,7 @@ public class positions_activity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(positions_activity.this, leftfield_activity.class));
+                mediaPlayer.start();
             }
         });
         center.setOnClickListener(new View.OnClickListener()
@@ -81,6 +90,7 @@ public class positions_activity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(positions_activity.this, center_activity.class));
+                mediaPlayer.start();
             }
         });
         rightField.setOnClickListener(new View.OnClickListener()
@@ -88,6 +98,7 @@ public class positions_activity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(positions_activity.this, rightfield_activity.class));
+                mediaPlayer.start();
             }
         });
 
@@ -96,6 +107,7 @@ public class positions_activity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(positions_activity.this, MainActivity.class));
+                mediaPlayer.start();
             }
         });
 
