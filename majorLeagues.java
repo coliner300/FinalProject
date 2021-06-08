@@ -14,7 +14,7 @@ public class majorLeagues extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.minor_league);
+        setContentView(R.layout.major_league);
 
         Button backML;
 
