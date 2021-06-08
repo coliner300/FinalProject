@@ -1,6 +1,7 @@
 package com.example.finalproject;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,12 +19,14 @@ public class first_activity extends AppCompatActivity {
         Button backF;
 
         backF = findViewById(R.id.backF);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.batsound);
 
         backF.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(first_activity.this, positions_activity.class));
+                mediaPlayer.start();
             }
         });
 
